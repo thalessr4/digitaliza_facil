@@ -49,7 +49,7 @@ Sistema web desenvolvido para auxiliar pequenos negócios no cadastro, gerenciam
 
 ## 🔗 Configuração do Banco de Dados
 
-### 1️⃣ Criação do Banco de Dados
+## 1️⃣ Criação do Banco de Dados
 
 Acesse o **phpMyAdmin** ou outro gerenciador de MySQL e execute o seguinte script SQL:
 
