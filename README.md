@@ -25,16 +25,27 @@ Sistema web desenvolvido para auxiliar pequenos negócios no cadastro, gerenciam
 /digitaliza-facil
 │
 ├── css/
-│   └── style.css          # Arquivo de estilos
+│   └── style.css             # Arquivo de estilos (cores, layout, responsividade e animações)
 │
-├── db.php                 # Conexão com o banco de dados
-├── login.php              # Tela e lógica de login
-├── logout.php             # Encerramento de sessão
-├── register_user.php      # Registro de novos usuários
-├── index.php              # Página inicial após login
-├── edit_user.php          # Edição de dados do usuário
-├── delete_user.php        # Exclusão de usuários
-```
+├── db.php                    # Arquivo de conexão com o banco de dados MySQL
+│
+├── login.php                 # Tela de login e validação de acesso dos usuários
+├── logout.php                # Encerra a sessão e faz logout do usuário
+├── register_user.php         # Tela para cadastro de novos usuários no sistema
+├── edit_user.php             # Permite que o usuário edite seus próprios dados (nome, senha)
+├── delete_user.php           # Exclusão da conta do usuário e de todos os seus dados vinculados
+│
+├── index.php                 # Página inicial (menu principal) após o login
+│
+├── register.php              # Cadastro de novos clientes (vinculados ao usuário logado)
+├── clients.php               # Lista de clientes cadastrados, com opções de editar e excluir
+├── edit.php                  # Tela para edição dos dados de um cliente específico
+├── delete.php                # Exclusão de um cliente específico
+│
+├── reports.php               # Relatório dos clientes cadastrados com opção de impressão
+│
+├── admin.php                 # Painel administrativo: lista todos os usuários e permite editar dados e privilégios (Admin ou Usuário comum)
+
 
 ## 🔗 Configuração do Banco de Dados
 
