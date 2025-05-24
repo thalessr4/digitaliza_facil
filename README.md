@@ -46,10 +46,10 @@ Sistema web desenvolvido para auxiliar pequenos negócios no cadastro, gerenciam
 │
 ├── admin.php                 # Painel administrativo: lista todos os usuários e permite editar dados e privilégios (Admin ou Usuário comum)
 
-
+```
 ## 🔗 Configuração do Banco de Dados
 
-## 1️⃣ Criação do Banco de Dados
+### 1️⃣ Criação do Banco de Dados
 
 Acesse o **phpMyAdmin** ou outro gerenciador de MySQL e execute o seguinte script SQL:
 
