@@ -5,7 +5,7 @@ Sistema web desenvolvido para auxiliar pequenos negócios no cadastro, gerenciam
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Front-end: HTML5, CSS3, JavaScript
+- Front-end: HTML5, CSS3
 - Back-end: PHP (versão 7.4 ou superior)
 - Banco de Dados: MySQL
 - Servidor local recomendado: XAMPP, WAMP ou similar
@@ -58,7 +58,7 @@ CREATE TABLE usuarios (
     is_admin BOOLEAN DEFAULT FALSE
 );
 
--- Criação da tabela de clientes (exemplo)
+-- Criação da tabela de clientes
 CREATE TABLE clientes (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
