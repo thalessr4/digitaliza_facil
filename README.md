@@ -27,10 +27,6 @@ Sistema web desenvolvido para auxiliar pequenos negócios no cadastro, gerenciam
 ├── css/
 │   └── style.css          # Arquivo de estilos
 │
-├── img/                   # Imagens usadas no site
-│
-├── js/                    # Scripts JS (se houver)
-│
 ├── db.php                 # Conexão com o banco de dados
 ├── login.php              # Tela e lógica de login
 ├── logout.php             # Encerramento de sessão
@@ -38,9 +34,6 @@ Sistema web desenvolvido para auxiliar pequenos negócios no cadastro, gerenciam
 ├── index.php              # Página inicial após login
 ├── edit_user.php          # Edição de dados do usuário
 ├── delete_user.php        # Exclusão de usuários
-├── ...                    # Outros arquivos conforme o desenvolvimento
-│
-└── README.md              # Documentação do projeto
 ```
 
 ## 🔗 Configuração do Banco de Dados
