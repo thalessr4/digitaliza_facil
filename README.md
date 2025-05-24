@@ -5,7 +5,7 @@ Sistema web desenvolvido para auxiliar pequenos negócios no cadastro, gerenciam
 
 ## 🛠️ Tecnologias Utilizadas
 
-- Front-end: HTML5, CSS3
+- Front-end: HTML5, CSS3, Javascript
 - Back-end: PHP (versão 7.4 ou superior)
 - Banco de Dados: MySQL
 - Servidor local recomendado: XAMPP, WAMP ou similar
